@@ -79,3 +79,9 @@ p{
     text-align: center;
     color: #333;
 }
+
+.bg-add{
+    background: url("./images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left center
+}
