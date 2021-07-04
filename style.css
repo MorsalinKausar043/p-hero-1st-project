@@ -71,12 +71,14 @@ p{
     border-image-slice: 1;
     box-shadow: 0 0 30px rgba(0,0,0,0.7);
     border-radius: 4px;
+    width: 40%;
 }
 
 .left-border:last-child{
     border-left: 4px solid transparent;
     border-image: linear-gradient(to bottom, royalblue , #03a6f1);
     border-image-slice: 1;
+    width: 40%;
 }
 
 .fotter-title{
