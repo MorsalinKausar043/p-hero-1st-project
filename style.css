@@ -75,7 +75,7 @@ p{
 
 .left-border:last-child{
     border-left: 4px solid transparent;
-    border-image: linear-gradient(to bottom, royalblue , #666fc2);
+    border-image: linear-gradient(to bottom, royalblue , #03a6f1);
     border-image-slice: 1;
 }
 
