@@ -95,3 +95,53 @@ p{
 h2{
     font-size: 28px;
 }
+
+/* setup responsive */
+
+@media (max-width : 1020px) {
+    .extra-flex{
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+
+@media (max-width : 980px) {
+    .extra-flex{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .left-border-gone{
+        margin-bottom: 50px;
+        width: 100%;
+    }
+
+    .left-border:last-child{
+        width: 80%;
+    }
+
+    .width-half{
+        width: 80%;
+    }
+
+    .extra-flex{
+        padding: 20px;
+    }
+
+    .second-banner{
+        background: url("./images/dream-bg.png");
+        background-repeat: no-repeat;
+        background-position: right top;
+        background-size: 10%;
+    }
+
+    .fotter-title{
+        font-size: 12px;
+    }
+
+}
+
+
