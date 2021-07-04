@@ -66,13 +66,17 @@ p{
 }
 
 .left-border{
-    border-left: 4px solid orangered;
+    border-left: 4px solid transparent;
+    border-image: linear-gradient(orange, tomato);
+    border-image-slice: 1;
     box-shadow: 0 0 30px rgba(0,0,0,0.7);
     border-radius: 4px;
 }
 
 .left-border:last-child{
-    border-left: 4px solid royalblue;
+    border-left: 4px solid transparent;
+    border-image: linear-gradient(to bottom, royalblue , #666fc2);
+    border-image-slice: 1;
 }
 
 .fotter-title{
@@ -84,4 +88,8 @@ p{
     background: url("./images/exp-bg.png");
     background-repeat: no-repeat;
     background-position: left center
+}
+
+h2{
+    font-size: 28px;
 }
